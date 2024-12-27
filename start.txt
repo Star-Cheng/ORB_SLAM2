@@ -1,0 +1,12 @@
+# https://blog.csdn.net/weixin_56566649/article/details/124355140
+
+## Monocular
+./Examples/Monocular/mono_tum Vocabulary/ORBvoc.txt Examples/Monocular/TUM1.yaml /root/gym/data/slam/rgbd_dataset_freiburg1_xyz
+
+## Stereo
+./Examples/Stereo/stereo_euroc Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml /root/gym/data/slam/MH_01_easy/cam0/data /root/gym/data/slam/MH_01_easy/cam1/data Examples/Stereo/EuRoC_TimeStamps/SEQUENCE.txt
+
+## RGB-D
+./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1.yaml /root/gym/data/slam/rgbd_dataset_freiburg1_xyz /root/gym/data/slam/rgbd_dataset_freiburg1_xyz/associations.txt
+
+
